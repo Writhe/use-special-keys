@@ -1,10 +1,14 @@
 {
   "name": "use-special-keys",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "description": "Custom React hook for handling KeyboardEvents",
-  "keywords": ["React", "KeyboardEvent", "Custom hook"],
+  "keywords": [
+    "React",
+    "KeyboardEvent",
+    "Custom hook"
+  ],
   "author": {
     "email": "filip.moroz@gmail.com",
     "name": "Writhe"
