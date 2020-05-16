@@ -1,10 +1,18 @@
 {
   "name": "use-special-keys",
-  "version": "0.0.0",
-  "main": "index.js",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": {
+    "email": "filip.moroz@gmail.com",
+    "name": "Writhe"
+  },
   "license": "MIT",
   "scripts": {
     "test": "jest --config jestconfig.json",
+    "release": "standard-version",
+    "prepare": "npm run build",
+    "release:dry-run": "standard-version --dry-run",
     "build": "tsc"
   },
   "devDependencies": {
