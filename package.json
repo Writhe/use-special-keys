@@ -3,6 +3,8 @@
   "version": "1.0.1",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "description": "Custom React hook for handling KeyboardEvents",
+  "keywords": ["React", "KeyboardEvent", "Custom hook"],
   "author": {
     "email": "filip.moroz@gmail.com",
     "name": "Writhe"
